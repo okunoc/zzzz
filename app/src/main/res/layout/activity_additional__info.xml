@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Additional_Info">
+
+    <include layout="@layout/content_additional__info" />
+
+    <TextView
+        android:id="@+id/textView_pesticide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:text="Pesticide:"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:id="@+id/pesticide"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter common name of pesticide" />
+
+
+    <TextView
+        android:id="@+id/textView_pest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="5dp"
+        android:text="Pest:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/pest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter name of target pest"/>
+
+
+    <TextView
+        android:id="@+id/textView_dilutionRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="5dp"
+        android:text="Dilution Rate:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/dilutionRate"
+        android:hint="Enter dilution rate (i.e 1 cup to 1 gallon)" />
+    />
+
+
+    <TextView
+        android:id="@+id/textView_pesticideAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="5dp"
+        android:text="Amount of Pesticide:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/pesticideAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter amount of pesticide used" />
+
+
+    <TextView
+        android:id="@+id/textView_corp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="5dp"
+        android:text="Crop:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/crop"
+        android:hint="Enter name of crop treated"/>
+
+
+    <Button
+        android:id="@+id/Next"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="197dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="5dp"
+        android:background="#5edbad"
+        android:text="NEXT"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.design.widget.CoordinatorLayout>
